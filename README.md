@@ -1,23 +1,6 @@
 # FPGA Hardware Shutter for Timepix3
 
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}Deterministic FPGA-based shutter timing for Timepix3 on
-Xilinx Zynq UltraScale+ MPSoC`</strong>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<img alt="Vivado" src="https://img.shields.io/badge/Vivado-2024.2-blue">`{=html}
-`<img alt="HDL" src="https://img.shields.io/badge/HDL-Verilog-blue">`{=html}
-`<img alt="FPGA" src="https://img.shields.io/badge/FPGA-XCZu7EV-blue">`{=html}
-`<img alt="Status" src="https://img.shields.io/badge/status-hardware%20integration-yellow">`{=html}
-```{=html}
-</p>
-```
+
 
 ------------------------------------------------------------------------
 
@@ -283,7 +266,7 @@ hardware_shutter/
 │
 ├── tb_axi_to_gpio.v
 │
-├── phase_controller.v          # if included in this branch
+├── phase_controller.v       
 └── tb_clk_wiz.v
 ```
 
